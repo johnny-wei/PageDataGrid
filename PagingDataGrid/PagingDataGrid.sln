@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication", "WpfApplication\WpfApplication.csproj", "{5EB36560-5B0E-41D2-B2B5-C664C6414A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlLibrary", "CustomControlLibrary\CustomControlLibrary.csproj", "{AD060C8A-12AF-4C1B-89CF-9B41A1EDD31B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EB36560-5B0E-41D2-B2B5-C664C6414A28}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5EB36560-5B0E-41D2-B2B5-C664C6414A28}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{5EB36560-5B0E-41D2-B2B5-C664C6414A28}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{5EB36560-5B0E-41D2-B2B5-C664C6414A28}.Debug|x86.ActiveCfg = Debug|x86
+		{5EB36560-5B0E-41D2-B2B5-C664C6414A28}.Debug|x86.Build.0 = Debug|x86
+		{5EB36560-5B0E-41D2-B2B5-C664C6414A28}.Release|Any CPU.ActiveCfg = Release|x86
+		{5EB36560-5B0E-41D2-B2B5-C664C6414A28}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{5EB36560-5B0E-41D2-B2B5-C664C6414A28}.Release|Mixed Platforms.Build.0 = Release|x86
+		{5EB36560-5B0E-41D2-B2B5-C664C6414A28}.Release|x86.ActiveCfg = Release|x86
+		{5EB36560-5B0E-41D2-B2B5-C664C6414A28}.Release|x86.Build.0 = Release|x86
+		{AD060C8A-12AF-4C1B-89CF-9B41A1EDD31B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD060C8A-12AF-4C1B-89CF-9B41A1EDD31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD060C8A-12AF-4C1B-89CF-9B41A1EDD31B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AD060C8A-12AF-4C1B-89CF-9B41A1EDD31B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AD060C8A-12AF-4C1B-89CF-9B41A1EDD31B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AD060C8A-12AF-4C1B-89CF-9B41A1EDD31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD060C8A-12AF-4C1B-89CF-9B41A1EDD31B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD060C8A-12AF-4C1B-89CF-9B41A1EDD31B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AD060C8A-12AF-4C1B-89CF-9B41A1EDD31B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AD060C8A-12AF-4C1B-89CF-9B41A1EDD31B}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

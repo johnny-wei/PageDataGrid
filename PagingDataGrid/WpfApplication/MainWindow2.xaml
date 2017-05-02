@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApplication.MainWindow2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lib="clr-namespace:CustomControlLibrary;assembly=CustomControlLibrary"
+        Name="self"
+        Title="MainWindow2" Height="325" Width="518">
+    <Grid>
+        <lib:PagingDataGrid 
+            PageSizeList="10,20,30"
+            ItemsSource="{Binding Result.Students,ElementName=self}" 
+            Total="{Binding Result.Total,ElementName=self}" 
+            PagingChanged="PagingDataGrid_PagingChanged" Margin="0,-10,0,10.2">
+            <lib:PagingDataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Age" Binding="{Binding Age}" />
+                <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" />
+            </lib:PagingDataGrid.Columns>
+        </lib:PagingDataGrid>
+    </Grid>
+</Window>

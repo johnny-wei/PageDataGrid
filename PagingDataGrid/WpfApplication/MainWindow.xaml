@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lib="clr-namespace:CustomControlLibrary;assembly=CustomControlLibrary"
+        Name="self"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DataGrid ItemsSource="{Binding Path=ItemsSource,ElementName=dataPager}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Age" Binding="{Binding Age}" />
+                <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <lib:DataPager Grid.Row="1" Name="dataPager" PageSizeList="10,20,30"
+                       ItemsSource="{Binding Path=Result.Students,Mode=TwoWay,ElementName=self}"
+                       Total="{Binding Path=Result.Total,ElementName=self}"
+                       PageChanged="dataPager_PageChanged" />     
+    </Grid>
+</Window>
